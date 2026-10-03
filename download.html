@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poipiku 手机版下载与安装：从转存安装包到打开应用</title>
+  <meta name="description" content="Poipiku 安卓客户端的下载与安装指引：夸克网盘转存、允许未知来源、完成安装的完整步骤，以及安装被阻止、闪退等常见问题的处理办法。">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="4" y="4" width="56" height="56" rx="14" fill="#3E9EDB"/><path d="M32 12 L50 21 L32 30 L14 21 Z" fill="#ffffff"/><path d="M14 21 L14 43 L32 52 L32 30 Z" fill="#DCEFFB"/><path d="M50 21 L50 43 L32 52 L32 30 Z" fill="#B9DEF5"/></svg>
+      Poipiku <small>手绘分享小站</small>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="展开导航"><span></span></button>
+    <nav class="nav-menu">
+      <a href="/#start">上手三步</a>
+      <a href="/#features">玩法特点</a>
+      <a href="#steps">安装步骤</a>
+      <a href="#problems">装不上</a>
+      <a href="/" class="nav-cta">返回首页</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 下载首屏 -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="kicker">安卓客户端 · 下载与安装</span>
+      <h1>五步装好 <em class="scribble">Poipiku<svg viewBox="0 0 120 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 20 2, 40 10, 60 6 S 100 3, 118 7" stroke="#F2B441" stroke-width="3" fill="none" stroke-linecap="round"/></svg></em>，把今天随手画的图发出去</h1>
+      <p class="lead">安装文件资源放在夸克网盘。先转存到自己的网盘再下载，文件完整、不怕原分享失效；整个过程大约两三分钟。</p>
+      <a class="btn btn-primary" data-link="download" href="https://pan.quark.cn/s/611897c014af">获取安装文件资源</a>
+      <p class="hero-note">安装包 6MB 出头，近几年的安卓手机基本都能装 · 界面默认简体中文</p>
+    </div>
+  </section>
+
+  <!-- 安装步骤 -->
+  <section class="section" id="steps">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="no hand">01</span><h2>安装步骤</h2>
+        <p>第一次从安装包装应用，会多一个「允许未知来源」的动作，照下面的顺序做就行。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div><h3>打开网盘链接，先转存</h3><p>用手机上的夸克 App 打开上方的分享链接，把安装包<strong>转存到自己的网盘空间</strong>。</p></div>
+        </div>
+        <div class="step">
+          <div><h3>下载到手机本地</h3><p>在网盘里找到转存后的安装包，点下载，等它落到手机本地存储，得到一个 <code>.apk</code> 文件。</p></div>
+        </div>
+        <div class="step">
+          <div><h3>点开安装包，允许「未知来源」</h3><p>在文件管理里点这个 <code>.apk</code>；第一次装会跳到设置页，按提示打开「来自此来源的应用 / 安装未知应用」的开关，返回后再点一次安装。</p></div>
+        </div>
+        <div class="step">
+          <div><h3>等安装完成</h3><p>进度走完后点「打开」直接进入，或回桌面找蓝色立方体图标的 Poipiku。</p></div>
+        </div>
+        <div class="step">
+          <div><h3>注册登录，发第一张图</h3><p>打开就是登录注册入口，一个能收信的邮箱即可完成注册；登录后就能逛作品流、发自己的图了。</p></div>
+        </div>
+      </div>
+      <p style="margin-top:24px;"><a class="btn btn-primary" data-link="download" href="https://pan.quark.cn/s/611897c014af">获取安装文件资源</a></p>
+    </div>
+  </section>
+
+  <!-- 常见安装问题 -->
+  <section class="section" id="problems">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="no hand">02</span><h2>装不上 / 打不开，先看这里</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>点安装时被系统拦下来，提示「禁止安装」？</summary>
+          <p>这是安卓对安装包来源的正常拦截。在弹出的设置页里，允许「来自此来源的应用」；如果手机还有「纯净模式 / 应用安装锁」之类的开关，也一并关闭后再装。</p>
+        </details>
+        <details>
+          <summary>装好了但一打开就闪退、白屏？</summary>
+          <p>先清一次缓存：系统设置 → 应用管理 → Poipiku → 存储 → 清除缓存，再重新打开；还不行就重启手机。安卓的网页组件 WebView 版本过旧也会让页面加载异常，可到应用商店把它更新到最新。</p>
+        </details>
+        <details>
+          <summary>提示存储空间不足，或安装包装到一半失败？</summary>
+          <p>清一下存储再装；如果反复失败，多半是安装包没下完整——回网盘把文件重新下载一次，覆盖旧的再装。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 装好之后 -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>装好了，接下来呢？</h2>
+        <p>先逛逛作品流找找感觉，再发出第一张图——涂鸦也完全没问题。</p>
+        <a class="btn btn-primary" href="/">回首页看玩法与特点</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>本页为第三方介绍页，与 Poipiku 的开发者无隶属关系；展示素材来自公开资料，版权归原作者所有。</span>
+    <span>安装文件资源仅做获取指引，请通过正版渠道支持创作者。</span>
+    <!-- github-anchor -->
+  </div>
+</footer>
+
+<div class="fabs">
+  <button class="fab fab-top" aria-label="返回顶部">↑</button>
+  <a class="fab fab-dl" data-link="download" href="https://pan.quark.cn/s/611897c014af" aria-label="获取安装文件资源">
+    <svg viewBox="0 0 24 24"><path d="M12 3 v12"/><path d="M7 10 l5 5 5-5"/><path d="M4 20 h16"/></svg>
+  </a>
+</div>
+
+<script src="/assets/js/links.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
